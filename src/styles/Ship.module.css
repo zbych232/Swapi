@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+  text-align: center;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.rowTitle{
+font-weight: 800;
+}
