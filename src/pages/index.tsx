@@ -1,15 +1,12 @@
 import React, { useState, useRef } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import type { GetStaticProps } from 'next';
 import ShipsList from '@/components/ShipsList';
 import Filters from '@/components/Filters';
 import SearchBox from '@/components/SearchBox';
 import axios from 'axios';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home({ films, ships }) {
   const [rows, setRows] = useState(ships);
